@@ -1,0 +1,10 @@
+#
+# This is the Containerfile for building the distant wave epk
+# development container
+#
+
+# Starting with the nodejs official docker image, debian based
+FROM docker.io/node:20-bullseye
+
+# Install angular
+RUN npm install -g @angular/cli
