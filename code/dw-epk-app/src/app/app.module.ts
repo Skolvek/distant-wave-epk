@@ -10,6 +10,7 @@ import { ContactPageComponent } from './contact-page/contact-page.component';
 import { NavigationToolbarComponent } from './navigation-toolbar/navigation-toolbar.component';
 import { UpcomingShowsPageComponent } from './upcoming-shows-page/upcoming-shows-page.component';
 import { MusicPageComponent } from './music-page/music-page.component';
+import { SiteFooterComponent } from './site-footer/site-footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MusicPageComponent } from './music-page/music-page.component';
     ContactPageComponent,
     NavigationToolbarComponent,
     UpcomingShowsPageComponent,
-    MusicPageComponent
+    MusicPageComponent,
+    SiteFooterComponent
   ],
   imports: [
     BrowserModule,

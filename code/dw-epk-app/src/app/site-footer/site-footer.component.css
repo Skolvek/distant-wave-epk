@@ -1,0 +1,16 @@
+.footer-body {
+    background-color: gray;
+}
+
+.link-list {
+    list-style: none;
+}
+
+.external-link {
+    color: white;
+    text-decoration: none;
+}
+
+.external-link:hover {
+    text-decoration: underline;
+}
