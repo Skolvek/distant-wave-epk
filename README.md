@@ -37,3 +37,6 @@ The distant-wave-epk repo is structured as follows:
 1. Start the development container and attach to it
 2. change directories to `code/dw-epk-app` and build the application with `ng build`
 3. test your changes by running `ng serve` and navigating to `http://localhost:4200`
+
+
+Any commands like `ng generate` or `ng add` or `npm install` **MUST** be run within the `dw-epk-app!` directory.
