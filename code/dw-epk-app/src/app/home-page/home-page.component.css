@@ -1,0 +1,17 @@
+.bio-tile {
+    background-color: royalblue;
+}
+
+.bio-text {
+    position: absolute;
+    left:2em;
+}
+.next-event-tile {
+    background-color: crimson;
+}
+
+.latest-release-tile {
+    background-color: yellow;
+}
+
+

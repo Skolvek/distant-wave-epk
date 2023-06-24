@@ -1,2 +1,13 @@
-<h1>TODO: SHOWS PAGE</h1>
-<p>List of upcoming events, maybe a calendar?, dialogue for requesting a gig?, eventually add a database...</p>
+
+<!-- Dynamically generated list of events -->
+<div class="events-scroll-title">
+    Upcoming Events
+</div>
+<ng-scrollbar>
+    <div class="scrollbar-content" *ngFor="let event of upcomingEvents">
+        <app-upcoming-show-card [eventData]=event></app-upcoming-show-card>
+    </div>
+</ng-scrollbar>
+<!-- Request a show -->
+
+

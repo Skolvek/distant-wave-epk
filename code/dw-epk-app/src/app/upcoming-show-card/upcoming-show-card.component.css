@@ -1,0 +1,14 @@
+mat-card {
+    margin: 10px;
+    max-width: 50em;
+}
+
+.venudata {
+    float: left;
+    text-align: start;
+}
+
+.eventtimedata {
+    float: right;
+    text-align: end;
+}

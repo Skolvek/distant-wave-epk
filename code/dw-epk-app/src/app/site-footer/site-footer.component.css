@@ -1,0 +1,13 @@
+.external-link {
+    color: white;
+    text-decoration: none;
+}
+
+.external-link:hover {
+    text-decoration: underline;
+}
+
+mat-toolbar {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
