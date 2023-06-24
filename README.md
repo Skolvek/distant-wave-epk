@@ -39,4 +39,8 @@ The distant-wave-epk repo is structured as follows:
 3. test your changes by running `ng serve` and navigating to `http://localhost:4200`
 
 
-Any commands like `ng generate` or `ng add` or `npm install` **MUST** be run within the `dw-epk-app!` directory.
+Any commands like `ng generate` or `ng add` or `npm install` **MUST** be run within the `dw-epk-app` directory.
+
+## Useful Links
+Angular material documenation (not using bootstrap): 
+https://material.angular.io/

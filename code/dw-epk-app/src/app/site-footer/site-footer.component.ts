@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './site-footer.component.html',
   styleUrls: ['./site-footer.component.css']
 })
+
 export class SiteFooterComponent {
 
 }

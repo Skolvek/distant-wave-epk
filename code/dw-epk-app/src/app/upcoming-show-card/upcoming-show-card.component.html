@@ -1,0 +1,15 @@
+<!-- This component is not its own page, it is to be inserted to the upcoming-show-page dynamically -->
+
+<mat-card *ngIf="eventData">
+    <mat-card-content>
+        <div class="venudata">
+            <span>
+                {{eventData.venueName}}<br>
+                {{eventData.venueLocation}}
+            </span>
+        </div>
+        <div class="eventtimedata">
+            <span>{{eventData.showDate}} @ {{eventData.showTime}}</span>
+        </div>
+    </mat-card-content>
+</mat-card>
