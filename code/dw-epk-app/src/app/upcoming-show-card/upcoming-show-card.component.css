@@ -1,14 +1,25 @@
 mat-card {
-    margin: 10px;
-    max-width: 50em;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 96%;
+    color: white;
+}
+
+mat-card:hover {
+    color:lightslategray;
 }
 
 .venudata {
+    padding: 1em 0;
     float: left;
-    text-align: start;
+    text-align: center;
 }
 
 .eventtimedata {
+    padding: 1em 0;
     float: right;
-    text-align: end;
+    text-align: center;
 }

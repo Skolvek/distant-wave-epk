@@ -1,4 +1,14 @@
 .events-scroll-title {
-    margin: 2em;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    max-width: 50%;
+    min-width: 50%;
     text-align: center;
+}
+
+ng-scrollbar {
+    margin: auto;
+    max-width: 50%;
+    min-width: 50%;
 }
