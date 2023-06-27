@@ -47,19 +47,18 @@ https://material.angular.io/
 
 
 # Tasks:
-==== Part 1 - initial setup ====
-1 - Finish upcoming shows page w/ mock data
-2 - Finish home page
-    - need pictures, a blurb, etc...
-3 - Finish contact page
-4 - Finish music page
+## ==== Part 1 - initial setup ====
+1. Finish upcoming shows page w/ mock data
+2. Finish home page (need pictures, a blurb, etc...)
+3. Finish contact page
+4. write a tool that uses the youtube and instagram APIs to get the latest post from the distant wave social accounts. Runs weekly, updates a database, music-page reads from database and updates posts.
 
-==== Part 2 - real data ====
-1 - Create a database (probably can use django and sqlite3, deployment should be a podman pod w/ this app and the database talking internally)
-2 - Create an API for getting data from the database
-3 - replace mock-data with data from the database
+## ==== Part 2 - real data ====
+1. Create a database (probably can use django and sqlite3, deployment should be a podman pod w/ this app and the database talking internally)
+2. Create an API for getting data from the database
+3. replace mock-data with data from the database
 
-==== Part 3 - Real styling ===
-1 - figure out sass?
-2 - do final styling on all of the pages
-3 - figure out how to always have the footer be the end of the page (no white space when I scroll past it)
+## ==== Part 3 - Real styling ===
+1. figure out sass?
+2. do final styling on all of the pages
+3. figure out how to always have the footer be the end of the page (no white space when I scroll past it) [Update: I guess it just works automagically?? can't reproduce issue on pages with content...]
